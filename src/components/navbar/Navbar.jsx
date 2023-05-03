@@ -49,6 +49,7 @@ const Navbar = () => {
               <img
                 src={active || pathname !== '/' ? profile : profile1}
                 alt='profile'
+                className='profile-pic'
               />
               <span>{currentUser?.userName}</span>
               {open && (
