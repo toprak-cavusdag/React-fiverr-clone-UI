@@ -15,7 +15,7 @@ const Slide = ({ children, centerSlidePercentage }) => {
           showStatus={false}
           centerSlidePercentage={centerSlidePercentage}
           selectedItem={1}
-          dynamicHeight={true}
+          showIndicators={false}
         >
           {children}
         </Carousel>

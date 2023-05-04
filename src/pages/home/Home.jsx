@@ -2,10 +2,11 @@ import React from 'react';
 import Featured from '../../components/featured/Featured';
 import TrustedBy from '../../components/trustedBy/TrustedBy';
 import Slide from '../../components/Slide/Slide';
-import { cards } from '../../data';
+import { cards, projects } from '../../data';
 import CatCart from '../../components/catCard/CatCart';
 import check from '../../asset/check.png';
 import './Home.scss';
+import ProjectCart from '../../components/projectCard/ProjectCart';
 const Home = () => {
   return (
     <div className='home'>
@@ -109,6 +110,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Slide centerSlidePercentage={25}>
+        {projects.map((card) => {
+          return <ProjectCart card={card} key={card.id} />;
+        })}
+      </Slide>
     </div>
   );
 };
