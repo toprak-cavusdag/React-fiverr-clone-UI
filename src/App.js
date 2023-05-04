@@ -7,7 +7,6 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Gig from './pages/gig/Gig';
 import Gigs from './pages/gig/Gig';
 import Orders from './pages/orders/Orders';
-import myGigs from './pages/myGigs/myGigs.jsx';
 import Add from './pages/add/Add';
 import Messages from './pages/messages/Messages.jsx';
 import Message from './pages/message/Message.jsx';

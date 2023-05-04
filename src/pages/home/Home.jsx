@@ -7,6 +7,7 @@ import CatCart from '../../components/catCard/CatCart';
 import check from '../../asset/check.png';
 import './Home.scss';
 import ProjectCart from '../../components/projectCard/ProjectCart';
+import GigCard from '../../components/gigCard/GigCard';
 const Home = () => {
   return (
     <div className='home'>
@@ -114,6 +115,14 @@ const Home = () => {
       <Slide centerSlidePercentage={25}>
         {projects.map((card) => {
           return <ProjectCart card={card} key={card.id} />;
+        })}
+      </Slide>
+
+      <br />
+      <br />
+      <Slide centerSlidePercentage={25}>
+        {projects.map((card) => {
+          return <GigCard item={card} key={card.id} />;
         })}
       </Slide>
     </div>
