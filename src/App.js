@@ -5,7 +5,7 @@ import Footer from './components/footer/Footer';
 import React from 'react';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Gig from './pages/gig/Gig';
-import Gigs from './pages/gig/Gig';
+import Gigs from './pages/gigs/Gigs';
 import Orders from './pages/orders/Orders';
 import Add from './pages/add/Add';
 import Messages from './pages/messages/Messages.jsx';
@@ -13,6 +13,7 @@ import Message from './pages/message/Message.jsx';
 import MyGigs from './pages/myGigs/myGigs';
 import Register from './pages/register/Register.jsx';
 import Login from './pages/login/Login.jsx';
+import GigCategory from './pages/gigs/Gigs';
 
 function App() {
   const Layout = () => {
