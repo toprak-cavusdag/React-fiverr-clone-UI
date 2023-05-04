@@ -1,8 +1,8 @@
 import React from 'react';
 import './myGigs.scss';
 
-const myGigs = () => {
+const MyGigs = () => {
   return <div>My Gigs</div>;
 };
 
-export default myGigs;
+export default MyGigs;

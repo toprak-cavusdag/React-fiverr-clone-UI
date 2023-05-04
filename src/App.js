@@ -10,6 +10,9 @@ import Orders from './pages/orders/Orders';
 import Add from './pages/add/Add';
 import Messages from './pages/messages/Messages.jsx';
 import Message from './pages/message/Message.jsx';
+import MyGigs from './pages/myGigs/myGigs';
+import Register from './pages/register/Register.jsx';
+import Login from './pages/login/Login.jsx';
 
 function App() {
   const Layout = () => {
@@ -21,7 +24,6 @@ function App() {
       </>
     );
   };
-
   const router = createBrowserRouter([
     {
       path: '/',
@@ -31,42 +33,43 @@ function App() {
           path: '/',
           element: <Home />,
         },
-
         {
           path: '/gigs',
           element: <Gigs />,
         },
-
         {
-          path: '/gigs/:id',
-          element: <Gig />,
+          path: '/myGigs',
+          element: <MyGigs />,
         },
-
         {
           path: '/orders',
           element: <Orders />,
         },
-
         {
-          path: '/my-gigs',
-          element: <myGigs />,
+          path: '/messages',
+          element: <Messages />,
         },
-
+        {
+          path: '/message/:id',
+          element: <Message />,
+        },
         {
           path: '/add',
           element: <Add />,
         },
-
         {
-          path: '/Messages',
-          element: <Messages />,
-        },
-
-        {
-          path: '/message',
-          element: <Message />,
+          path: '/gig/:id',
+          element: <Gig />,
         },
       ],
+    },
+    {
+      path: '/register',
+      element: <Register />,
+    },
+    {
+      path: '/login',
+      element: <Login />,
     },
   ]);
 

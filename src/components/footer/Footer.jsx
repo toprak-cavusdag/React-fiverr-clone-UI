@@ -1,5 +1,13 @@
 import React from 'react';
 import './Footer.scss';
+import coin from '../../asset/coin.png';
+import accessibility from '../../asset/accessibility.png';
+import twitter from '../../asset/twitter.png';
+import facebook from '../../asset/facebook.png';
+import linkedin from '../../asset/linkedin.png';
+import pinterest from '../../asset/pinterest.png';
+import instagram from '../../asset/instagram.png';
+import language from '../../asset/language.png';
 const Footer = () => {
   return (
     <div className='footer'>
@@ -72,21 +80,21 @@ const Footer = () => {
           </div>
           <div className='right'>
             <div className='social'>
-              <img src='/img/twitter.png' alt='' />
-              <img src='/img/facebook.png' alt='' />
-              <img src='/img/linkedin.png' alt='' />
-              <img src='/img/pinterest.png' alt='' />
-              <img src='/img/instagram.png' alt='' />
+              <img src={twitter} alt='twitter' />
+              <img src={facebook} alt='facebook' />
+              <img src={linkedin} alt='linkedin' />
+              <img src={pinterest} alt='pinterest' />
+              <img src={instagram} alt='instagram' />
             </div>
             <div className='link'>
-              <img src='/img/language.png' alt='' />
+              <img src={language} alt='language' />
               <span>English</span>
             </div>
             <div className='link'>
-              <img src='/img/coin.png' alt='' />
+              <img src={coin} alt='coin' />
               <span>USD</span>
             </div>
-            <img src='/img/accessibility.png' alt='' />
+            <img src={accessibility} alt='accessibility' />
           </div>
         </div>
       </div>
