@@ -117,14 +117,6 @@ const Home = () => {
           return <ProjectCart card={card} key={card.id} />;
         })}
       </Slide>
-
-      <br />
-      <br />
-      <Slide centerSlidePercentage={25}>
-        {projects.map((card) => {
-          return <GigCard item={card} key={card.id} />;
-        })}
-      </Slide>
     </div>
   );
 };
