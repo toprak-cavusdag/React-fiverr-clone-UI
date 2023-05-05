@@ -13,7 +13,6 @@ import Message from './pages/message/Message.jsx';
 import MyGigs from './pages/myGigs/myGigs';
 import Register from './pages/register/Register.jsx';
 import Login from './pages/login/Login.jsx';
-import GigCategory from './pages/gigs/Gigs';
 
 function App() {
   const Layout = () => {

@@ -57,7 +57,7 @@ const Navbar = () => {
                   {/* Saller */}
                   {currentUser?.isSaller && (
                     <>
-                      <Link className='link' to='my-gigs'>
+                      <Link className='link' to='myGigs'>
                         Gigs
                       </Link>
                       <Link className='link' to='add'>
