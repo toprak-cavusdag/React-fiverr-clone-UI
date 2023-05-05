@@ -3,6 +3,9 @@ import './Gig.scss';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import star from '../../asset/star.png';
+import like from '../../asset/like.png';
+import dislike from '../../asset/dislike.png';
+
 function Gig() {
   return (
     <div className='gig'>
@@ -20,11 +23,11 @@ function Gig() {
             />
             <span>Anna Bell</span>
             <div className='stars'>
-              <img src={star} alt='' />
-              <img src={star} alt='' />
-              <img src={star} alt='' />
-              <img src={star} alt='' />
-              <img src={star} alt='' />
+              <img src={star} alt='star' />
+              <img src={star} alt='star' />
+              <img src={star} alt='star' />
+              <img src={star} alt='star' />
+              <img src={star} alt='star' />
               <span>5</span>
             </div>
           </div>
@@ -68,11 +71,11 @@ function Gig() {
               <div className='info'>
                 <span>Anna Bell</span>
                 <div className='stars'>
-                  <img src={star} alt='' />
-                  <img src={star} alt='' />
-                  <img src={star} alt='' />
-                  <img src={star} alt='' />
-                  <img src={star} alt='' />
+                  <img src={star} alt='star' />
+                  <img src={star} alt='star' />
+                  <img src={star} alt='star' />
+                  <img src={star} alt='star' />
+                  <img src={star} alt='star' />
                   <span>5</span>
                 </div>
                 <button>Contact Me</button>
@@ -148,9 +151,9 @@ function Gig() {
               </p>
               <div className='helpful'>
                 <span>Helpful?</span>
-                <img src='/img/like.png' alt='' />
+                <img src={like} alt='' />
                 <span>Yes</span>
-                <img src='/img/dislike.png' alt='' />
+                <img src={dislike} alt='' />
                 <span>No</span>
               </div>
             </div>
@@ -174,11 +177,11 @@ function Gig() {
                 </div>
               </div>
               <div className='stars'>
-                <img src={star} alt='' />
-                <img src={star} alt='' />
-                <img src={star} alt='' />
-                <img src={star} alt='' />
-                <img src={star} alt='' />
+                <img src={star} alt='star' />
+                <img src={star} alt='star' />
+                <img src={star} alt='star' />
+                <img src={star} alt='star' />
+                <img src={star} alt='star' />
                 <span>5</span>
               </div>
               <p>
@@ -189,9 +192,9 @@ function Gig() {
               </p>
               <div className='helpful'>
                 <span>Helpful?</span>
-                <img src='/img/like.png' alt='' />
+                <img src={like} alt='' />
                 <span>Yes</span>
-                <img src='/img/dislike.png' alt='' />
+                <img src={dislike} alt='' />
                 <span>No</span>
               </div>
             </div>
@@ -231,9 +234,9 @@ function Gig() {
               </p>
               <div className='helpful'>
                 <span>Helpful?</span>
-                <img src='/img/like.png' alt='' />
+                <img src={like} alt='' />
                 <span>Yes</span>
-                <img src='/img/dislike.png' alt='' />
+                <img src={dislike} alt='' />
                 <span>No</span>
               </div>
             </div>
