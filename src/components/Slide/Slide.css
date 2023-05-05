@@ -1,0 +1,8 @@
+.slide {
+  display: flex;
+  justify-content: center;
+}
+.slide .container {
+  width: 1400px;
+  position: relative;
+}/*# sourceMappingURL=Slide.css.map */
