@@ -34,15 +34,31 @@ This project was made by looking at a youtube channel called [LamaDev](https://w
 
 ![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/sqtxcj6.png)
 
-
  &nbsp;
-  &nbsp;
-  
+ &nbsp;
+
 ![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/5x0espg.png)
 
+
+
+### Chat Page
+
+**Chat and messages section**
+
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/c8pas00.png)
+
+ &nbsp;
+ &nbsp;
+
+![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/9z5gduj.png)
 ## Feedback
 
 If you have any feedback, please toprakcavusdag58@gmail.com contact me at the address.
 
 
   
+##  Acknowledgments
+
+- [@ozng](htthttps://github.com/ozng) Thank you for your help
+
+- [@safak](https://github.com/safak) Project producer / trainer
