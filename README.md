@@ -59,6 +59,6 @@ If you have any feedback, please toprakcavusdag58@gmail.com contact me at the ad
   
 ##  Acknowledgments
 
-- [@ozng](htthttps://github.com/ozng) Thank you for your help
+- [@ozng](https://github.com/ozng) Thank you for your help
 
 - [@safak](https://github.com/safak) Project producer / trainer
