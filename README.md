@@ -6,10 +6,6 @@ You can watch the Project here [live]: https://toprak-cavusdag-react-fiverr-clon
 Contact with me: https://www.linkedin.com/in/toprak-%C3%A7avu%C5%9Fda%C4%9F-5184aa208/
 
 
-This project was made by looking at a youtube channel called [LamaDev](https://www.youtube.com/c/LamaDev)
-
-
-
 
 # Screenshots
 
